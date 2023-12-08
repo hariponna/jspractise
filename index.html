@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Monthly Rent Calucaltor</h1>
+
+        <div class="flex">
+            <label for="rent">Annual rent:</label>
+                <input type=" text" placeholder="Enter your annual rent" id="rent">
+        </div>
+        <div class="mainbtn">
+            <button class="btn" onClick="rent()">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+        </div>
+
+        <div class="final">
+            <h2>Your Montly Rent: </h2>
+            <h2 id="result"></h2>
+        </div>
+        
+        
+    </div>
+    
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
